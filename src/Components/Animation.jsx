@@ -10,7 +10,7 @@ const Animation = ({ setShowContent }) => {
     // ];
     const messages = [
 
-        "Hey, Vidhi 😊",
+        "Hey Vidhi 😊",
         "Close your eyes for a moment...",
         "Just kidding! Don't do that—you might miss the surprise! 😄",
         "Today is a special day, and you deserve something truly unique...",
