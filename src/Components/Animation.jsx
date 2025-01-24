@@ -10,7 +10,7 @@ const Animation = ({ setShowContent }) => {
     // ];
     const messages = [
 
-        "Hey, Vidhi! 😊",
+        "Hey, Vidhi 😊",
         "Close your eyes for a moment...",
         "Just kidding! Don't do that—you might miss the surprise! 😄",
         "Today is a special day, and you deserve something truly unique...",
@@ -78,8 +78,8 @@ const Animation = ({ setShowContent }) => {
                 justifyContent: "center",
                 background: "#000",
                 color: "#333",
-                padding: '1rem',
-                fontFamily: "Playwrite Display", // Royal font family
+                padding: '0 1rem',
+                fontFamily: "Playfair Display", // Royal font family
             }}
         >
             <div>

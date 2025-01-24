@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 /* Party image animation */
 .party-image {
     position: absolute;
@@ -41,9 +44,6 @@
 .scroll-btn.fade-in {
     opacity: 1;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
     font-family: 'Indie Flower', cursive !important;
@@ -94,11 +94,15 @@ h4 {
     .card {
         width: 200px;
         height: 280px;
-        font-size: 0.7rem;
+        font-size: 0.85rem;
     }
 
     .card .details {
         margin-top: 1rem;
+    }
+
+    .details i {
+        font-size: 0.7rem !important;
     }
 
 }
@@ -176,6 +180,13 @@ h4 {
     justify-content: center;
     height: 100%;
     padding: 1rem;
+    font-family: 'Great Vibes';
+}
+
+.details i {
+    font-family: "Noto Serif", 'Great Vibes', serif;
+    font-size: 1rem;
+
 }
 
 
@@ -374,7 +385,7 @@ h4 {
 
 .corners {
     position: fixed;
-    z-index: -1;
+    z-index: 10;
 }
 
 

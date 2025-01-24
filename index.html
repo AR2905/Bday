@@ -2,18 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Happy B'day V</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./src/assets/cake.png" />
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Open Graph Meta Tags for Link Preview -->
+    <meta property="og:title" content="Birthday Greeting" />
+    <meta property="og:description" content="A personalized birthday greeting with beautiful fonts and design." />
+    <meta property="og:image" content="/v.png" />
+    <meta property="og:url" content="https://happy-birthday-vidz.vercel.app/" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Birthday Greeting" />
+    <meta name="twitter:description" content="A personalized birthday greeting with beautiful fonts and design." />
+    <meta name="twitter:image" content="/v.png" />
+
+    <!-- Inline CSS for Fallback and Base Styling -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Vazirmatn:wght@100..900&display=swap');
-      </style>
+      body {
+        font-family: 'Bonheur Royale', 'Playfair Display', 'Indie Flower', 'Amatic SC', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-family: 'Bonheur Royale', cursive;
+      }
+      p {
+        font-family: 'Great Vibes', 'Playfair Display', serif;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+       
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

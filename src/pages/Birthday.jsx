@@ -42,8 +42,11 @@ export const Birthday = () => {
             </div>
             <section className={`one relative min-h-screen h-fit min-w-screen`}>
                 {!slide && <div
-                    className={`absolute scroll-btn flex justify-center w-screen bottom-10 z-50 ${fadeIn ? "fade-in" : ""}`}
-                    style={{ transform: "scale(0.6) rotate(270deg)" }}
+                    className={`absolute scroll-btn flex justify-center bottom-10 w-screen z-50 ${fadeIn ? "fade-in" : ""}`}
+                    style={{
+                        transform: "scale(0.6) rotate(270deg)",
+                        height: 'fit-content'
+                    }}
                 >
                     <button onClick={handleButtonClick}>
                         <div className="indicator">
@@ -64,7 +67,7 @@ export const Birthday = () => {
                                 <div className="bark"></div>
                                 <img src={Cake} alt="Birthday Cake" />
                             </div>
-                            <div className="details">
+                            <div className="details md:text-xl" >
                                 <p>Happy Birthday to my amazing best friend! 🎉</p>
                                 <p>You deserve all the love, happiness, and joy in the world today and every day.</p>
                                 <p>May your days be filled with laughter, love, and everything that makes you truly happy.</p>
@@ -77,12 +80,12 @@ export const Birthday = () => {
 
                 {showNewSection && (
 
-                    <>
+                    <div className="">
                         <div className="new-section fade-in-animation w-screen min-h-screen flex-col items-center justify-center ">
                             <h1 className={`font-bold  text-animated text-3xl sm:text-5xl text-center  my-8 mt-20 md:mt-40 text-yellow-800   `}>✨ Wishes ✨</h1>
                             <CardComponent />
                         </div>
-                    </>
+                    </div>
                 )}
             </section>
 

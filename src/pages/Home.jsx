@@ -7,9 +7,6 @@ const Home = () => {
     return (
         <div>
             <>
-                <style>
-                    {`@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN:wght@100..400&display=swap');`}
-                </style>
                 {!showContent ? (
                     <Animation setShowContent={setShowContent}></Animation>
                 ) : (

@@ -151,3 +151,12 @@
      margin: 0;
      margin-bottom: 16px;
  }
+
+ .card-head {
+     font-family: "Zilla Slab";
+ }
+
+ .card-p {
+     font-family: "Bonheur Royale", "Zilla Slab" !important;
+     font-weight: 500;
+ }
