@@ -38,9 +38,9 @@ const CardComponent = () => {
                     <div className="card__overlay"></div>
                     <div className="card__content">
                         <h2 className='card-head'>Love</h2>
-                        <p className='card-p'>
+                        <span className='card-p'>
                             Happy Birthday to someone who fills the world with love and kindness! May your year be filled with relationships that bring joy, support, and laughter to your life. Whether it’s with family, friends, or someone special, may you always be surrounded by people who truly value you.
-                        </p>
+                        </span>
                     </div>
                 </li>
                 <li className="card-card z-50 card-cards__item roll-in-blurred-left sm:col-span-2 lg:col-span-1">
@@ -57,9 +57,9 @@ const CardComponent = () => {
                     <div className="card__overlay"></div>
                     <div className="card__content">
                         <h2 className='card-head'>Joy</h2>
-                        <p className='card-p'>
+                        <span className='card-p'>
                             Happy Birthday! On your special day, I wish you warmth, love, and endless blessings. May this year bring you good health, inner peace, and the strength to rise above every challenge life may present. Your happiness means the world , and I hope every moment is filled with joy, positivity, and light that brightens even the darkest days. You are truly special, and you deserve all the beautiful moments life has to offer.
-                        </p>
+                        </span>
                     </div>
                 </li>
             </ul>
