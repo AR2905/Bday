@@ -158,5 +158,6 @@
 
  .card-p {
      /* font-family: "Bonheur Royale", "Zilla Slab" !important; */
-     font-family: 'Playfair Display', "Bonheur Royale" !important
+     font-family: 'Playfair Display', "Bonheur Royale" !important;
+     font-size: 0.8rem;
  }
