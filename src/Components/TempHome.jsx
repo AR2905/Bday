@@ -44,7 +44,7 @@ const TempHome = () => {
                     ],
                 })),
             ]);
-        }, 500);
+        }, 1000);
 
         setTimeout(() => {
             clearInterval(interval);

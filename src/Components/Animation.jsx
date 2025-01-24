@@ -79,8 +79,9 @@ const Animation = ({ setShowContent }) => {
                 background: "#000",
                 color: "#333",
                 padding: '0 1rem',
-                fontFamily: "Playfair Display", // Royal font family
+                fontFamily: "Playfair Display" // Royal font family
             }}
+            className="main-amimate"
         >
             <div>
 

@@ -82,7 +82,7 @@ export const Birthday = () => {
 
                     <div className="">
                         <div className="new-section fade-in-animation w-screen min-h-screen flex-col items-center justify-center ">
-                            <h1 className={`font-bold  text-animated text-3xl sm:text-5xl text-center  my-8 mt-20 md:mt-40 text-yellow-800   `}>✨ Wishes ✨</h1>
+                            <h1 className={`font-bold relative text-animated text-3xl sm:text-5xl text-center  my-8 mt-20 md:mt-40 text-yellow-800   `}>✨ Wishes ✨</h1>
                             <CardComponent />
                         </div>
                     </div>
