@@ -64,6 +64,7 @@ export const Birthday = () => {
                     >
                         <div className="card" >
                             <div className="imgBox">
+
                                 <div className="bark"></div>
                                 <img src={Cake} alt="Birthday Cake" />
                             </div>
@@ -74,6 +75,9 @@ export const Birthday = () => {
                                 <i>Bas itna hi, agar aur wishes chahiye, toh scroll karne ki mehnat karni padegi! 😜</i>
                                 <p className="text-right">Friend :)</p>
                             </div>
+                            <p className="align-end open" style={{
+                                textAlign: "end"
+                            }}>Open it :)</p>
                         </div>
                     </div>
                 )}

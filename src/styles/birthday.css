@@ -754,3 +754,8 @@ h4 {
     animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both,
         text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
+.card:hover .open {
+    display: none !important;
+
+}
