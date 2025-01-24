@@ -1,0 +1,111 @@
+/* General Reset */
+body,
+html {
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+.bg-pink-100 {
+    background: linear-gradient(135deg, #ffe4e6, #ffc1cc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Keyframes */
+
+/* Balloons floating upward */
+@keyframes float-up {
+    0% {
+        transform: translateY(100vh) scale(2.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-30vh) scale(2.2);
+        /* Balloons rise slowly */
+    }
+
+    80% {
+        transform: translateY(-100vh) scale(5);
+        /* Almost to the top */
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-150vh) scale(6);
+        /* Balloons disappear at the top */
+    }
+}
+
+
+/* Stars spreading outward */
+@keyframes spread {
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(3) translate(var(--x-direction), var(--y-direction)) rotate(var(--rotation));
+    }
+}
+
+/* Balloons */
+.animate-balloon {
+    position: absolute;
+    font-size: 3rem;
+    animation: float-up 12s linear forwards;
+
+    /* Random starting positions */
+    left: calc(var(--random-left) * 1%);
+    bottom: -10%;
+    /* Start below the frame */
+
+    /* Random animation delay */
+    animation-delay: var(--random-delay)s;
+
+    /* Balloon color variations */
+    color: var(--balloon-color);
+}
+
+/* Button */
+button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 20;
+    position: relative;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Stars */
+.animate-star {
+    position: absolute;
+    font-size: 1.5rem;
+    color: gold;
+    animation: spread 8s ease-out forwards;
+
+    /* Random direction and rotation for each star */
+    --x-direction: calc((var(--random-x) - 50) * 6vw);
+    --y-direction: calc((var(--random-y) - 50) * 6vh);
+    --rotation: calc(var(--random-rotation) * 360deg);
+}
+
+/* Add a transition for the page fade-out */
+.fade-out {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
+
+/* When the page is fading out, set opacity to 0 */
+.fade-out.hide {
+    opacity: 0;
+}
