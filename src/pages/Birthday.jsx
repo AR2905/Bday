@@ -73,7 +73,7 @@ export const Birthday = () => {
                                 <p>You deserve all the love, happiness, and joy in the world today and every day.</p>
                                 <p>May your days be filled with laughter, love, and everything that makes you truly happy.</p>
                                 <i>Bas itna hi, agar aur wishes chahiye, toh scroll karne ki mehnat karni padegi! 😜</i>
-                                <p className="text-right">Friend :)</p>
+                                <p className="text-right">Banji :)</p>
                             </div>
                             <p className="align-end open" style={{
                                 textAlign: "end"
